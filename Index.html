@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> Encriptador </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <header>
+        <nav class="menu">
+            <a>
+               <img class="ima1" src="./img/Logo.png">
+               Alura 
+               <section class="autor"> Hecho por BKS </section>
+            </a>
+        </nav>
+        </header>
+        
+        <main>
+        <section class="Cuadros">
+        <div>
+            <textarea class="tx" placeholder="Ingresa algun texto"></textarea>
+            <p class="Adver">Solo utilizar minusculas, sin acentos y/o caracteres especiales </p>
+        </div>
+        
+        <div>
+            <p>UPS...aun espereamos tu mensaje</p>
+            <textarea class="tx" placeholder="Aqui veras tu encriptado o desencriptado"></textarea>
+            <br> <br>
+            <button onclick="Copy()" class="Bt-C" id="Copiar"> Copiar </button>
+        </div>
+
+        </section>
+        
+        <section class="Boton">
+            <button onclick="Encrip()" class="Bt" id="Encriptar"> Encriptar </button>
+            <button onclick="Descrip()" class="Bt" id="Desencriptar"> Desencriptar </button>
+        </section>
+
+        </main>
+    </body>
+</html>
